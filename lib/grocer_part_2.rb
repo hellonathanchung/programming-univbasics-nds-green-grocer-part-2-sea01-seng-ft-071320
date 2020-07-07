@@ -30,7 +30,7 @@ end
 
 
 def checkout(cart, coupons)
-  apply_coupons(consolidate_cart(cart), coupons))
+  apply_clearance(apply_coupons(consolidate_cart(cart), coupons))
   # Consult README for inputs and outputs
   #
   # This method should call
